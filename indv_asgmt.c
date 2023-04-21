@@ -39,7 +39,7 @@ if(pid==0)
 {
 close(fd[1]);
 read(fd[0],buffer,50);
-printf("Your name is %s",buffer);
+printf("Your name is  %s",buffer);
 close(fd[0]);
 exit(EXIT_SUCCESS);
 }
@@ -50,5 +50,6 @@ return EXIT_SUCCESS;
 
 void sigint_handler(int sig)
 {
-printf("Do Not Disturb\n");
+printf("Oops interrupt detected. Exiting the program\n");
+exit(1);
 }
