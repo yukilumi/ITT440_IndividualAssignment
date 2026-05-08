@@ -1,4 +1,5 @@
 Instructions: 
+
 You are required to create a fork program in C programming language.  You are free to create as many child process as you wish for this program.  You are free to create parent message and interrupt message.  Your program should be capable of: 
 1. Forking into multiple child and there should be a kind of message passing from parent to child(s) using pipe.  
 2. Parent process should get the message from user (keyboard entry). 
