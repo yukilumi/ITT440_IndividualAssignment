@@ -5,5 +5,5 @@ You are required to create a fork program in C programming language.  You are fr
 3. Child(s) process should display the message (on screen / terminal). 
 4. If interrupt is detected from keyboard (Ctrl + C), the program should show appropriate interrupt message.
 
-5. Output:
-6. <img width="857" height="231" alt="image" src="https://github.com/user-attachments/assets/7e722b1c-9a1a-43b2-b2c6-c1607cba4dc1" />
+Output:
+<img width="857" height="231" alt="image" src="https://github.com/user-attachments/assets/7e722b1c-9a1a-43b2-b2c6-c1607cba4dc1" />
